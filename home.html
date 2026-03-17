@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shop Categories</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #f8f9fa, #e9ecef);
+            text-align: center;
+        }
+
+        h1 {
+            padding: 20px;
+            font-size: 32px;
+            color: #333;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 40px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            transition: 0.3s ease;
+            width: 250px;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .card h3 {
+            margin: 15px 0;
+            color: #444;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            background: #007bff;
+            color: white;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Try Now</h1>
+
+     <p class="alert alert-success">
+        <strong>Success!</strong> Your successfully login.
+     </p>
+
+    <div class="container">
+        <div class="card">
+        <img src="https://www.fomostore.in/cdn/shop/products/Brothers-Innovation-Stickers-Anime-Gojo_Chibi-Image-1.jpg?v=1738334535&width=2048" alt=""><br>
+        <h3>MEN'S</h3>
+        <a href="mens.html"><button class="btn">Explore</button></a>
+        </div>
+
+        <div class="card">
+            <img src="https://ih1.redbubble.net/image.4941724620.8060/st,medium,507x507-pad,600x600,f8f8f8.webp" alt=""><br>
+            <h3>WOMEN'S</h3>
+            <a href="womens.html"><button class="btn">Explore</button></a>       
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcB1tF-l6tdpVLbCiiUeXQETq9NgtbEeggzw&s" alt=""><br>
+            <h3>KIDS</h3>
+            <a href="kids.html"><button class="btn">Explore</button></a>
+        </div>
+    </div>
+
+</body>
+</html>
